@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="#">
+    <script src="https://kit.fontawesome.com/2910e844dd.js" crossorigin="anonymous"></script>
+    <title>FanPage for Cristiano Ronaldo</title>
+</head>
+
+<!--
+    Sources:
+    https://www.cristianoronaldo.com/#partners
+    https://www.singhweb.com
+    https://www.transfermarkt.com/cristiano-ronaldo/leistungsdaten/spieler/8198/saison/2020#gesamt
+    https://short-biography.com/cristiano-ronaldo.htm?cn-reloaded=1
+    https://www.google.com/search?q=cristiano+ronaldo+age+18&tbm=isch&ved=2ahUKEwjguZOmuazsAhUOuioKHQH5AqIQ2-cCegQIABAA&oq=+cristiano+ronaldo+age+&gs_lcp=CgNpbWcQARgCMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADoECCMQJzoECAAQQ1DuUVjnXmCNbmgAcAB4AIABtwmIAfIOkgEJMS4zLjEuNy0xmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=C-6CX6CIFo70qgGB8ouQCg&bih=946&biw=1920#imgrc=TYAB1zcssJHK6M  
+-->
+
+
+<body>
+
+    <style>
+    * {
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        list-style: none;
+        box-sizing: border-box;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+    nav {
+        position: fixed;
+        top: 0;
+        background: black;  
+        height: 80px;
+        width: 100%;
+        overflow: hidden;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+
+    .logo {
+        margin-top: 30px;
+        float: left;
+        margin-left: 5%;
+        font-weight: bold;
+        font-size: 22px;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    nav ul {
+        float: right;
+        margin-right: 20px;
+    }
+
+    nav ul li {
+        display: inline-block;
+        line-height: 80px;
+        margin-right: 40px;
+    }
+
+    nav ul li a {
+        color: white;
+        border-radius: 2px;
+        padding: 7px 15px;
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    nav ul li a.active, nav ul li a:hover {
+        background: #ff6f00;
+        transition: 0.5s;
+    }
+
+    .checkbtn {
+        font-size: 30px;
+        color: #ff6f00;
+        float: right;
+        line-height: 80px;
+    }
+
+    </style>
+<!------------------ Navigation --------------------------------->
+    <header>
+        <nav>
+            <input type="checkbox" id="check-box">
+            <label for="check-box" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <a href="index.html" class="logo">Cristiano Ronaldo</a>
+            <ul>
+                <li><a class="active" href="#cr7">CR7</a></li>
+                <li><a href="#highlights">Highlights</a></li>
+                <li><a href="#stats">Stats</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>

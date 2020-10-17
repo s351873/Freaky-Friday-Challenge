@@ -1,0 +1,149 @@
+/* Extra small devices (phones, 600px and down) */
+/*
+@media only screen and (max-width: 600px) {
+    .highlights {
+        padding-top: 0px;
+    }
+
+    .highlights h1{
+        float: left;
+        margin: 100px 0px 10px 30px;
+        font-size: 25px;
+        border-bottom: 5px solid #ff6f00;
+        padding: 0px 10px 10px 10px;
+        color: white;
+    }
+    
+    .video-slider{
+        width: 300px;
+        height: 200px;
+        overflow: hidden;
+        margin-top: 1600px;
+    }
+
+    .scroll-videos{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        padding-top: 420px;
+    }
+}
+  
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/*
+@media only screen and (min-width: 600px) { 
+    .highlights {
+        padding-top: 0px;
+    }
+
+    .highlights h1{
+        float: left;
+        margin: 100px 0px 10px 30px;
+        font-size: 30px;
+        border-bottom: 5px solid #ff6f00;
+        padding: 0px 10px 10px 10px;
+        color: white;
+    }
+    
+    .video-slider{
+        width: 500px;
+        height: 300px;
+        overflow: hidden;
+        margin-top: 1950px;
+    }
+
+    .scroll-videos{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        padding-top: 520px;
+    }
+}
+ 
+/* Medium devices (landscape tablets, 768px and up) */
+/*
+@media only screen and (min-width: 768px) {
+    .highlights {
+        padding-top: 0px;
+    }
+
+    .video-slider{
+        width: 600px;
+        height: 400px;
+        overflow: hidden;
+        margin-top: 1500px;
+    }
+
+    .scroll-videos{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        padding-top: 570px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+/*
+@media only screen and (min-width: 992px) {
+    .highlights {
+        padding-top: 0px;
+    }
+
+    .video-slider{
+        width: 600px;
+        height: 400px;
+        overflow: hidden;
+        margin-top: 1500px;
+    }
+
+    .scroll-videos{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        padding-top: 570px;
+    } 
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/*
+@media only screen and (min-width: 1200px) {
+    .highlights {
+        padding-top: 100px;
+    }
+
+    .highlights h1{
+        float: left;
+        margin: 15px 80px;
+        font-size: 60px;
+        border-bottom: 5px solid #ff6f00;
+        padding: 0px 10px 10px 10px;
+        color: white;
+    }
+    
+    .video-slider{
+        width: 500px;
+        height: 300px;
+        overflow: hidden;
+        margin-top: 1700px;
+    }
+
+    .scroll-videos{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        padding-top: 600px;
+    } 
+
+    .video-slider{
+        width: 700px;
+        height: 400px;
+        overflow: hidden;
+        margin-top: 1650px;
+    }
+}
