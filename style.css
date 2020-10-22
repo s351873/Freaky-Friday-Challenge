@@ -127,7 +127,7 @@ label #close-btn {
     display: none;
 }
 
-/*-------------------------- Responsive Navigation ---------------------*
+/*-------------------------- Responsive Navigation ---------------------*/
 
 @media only screen and (max-width: 600px) {
     nav ul {
@@ -211,7 +211,7 @@ label #close-btn {
 } 
 
 
-/*-------------------------------CR7-------------------------------*
+/*-------------------------------CR7-------------------------------*/
 
 .section-one {
     background: black;
@@ -250,7 +250,7 @@ p {
     margin: 20px auto;
 }
 
-/*------------------------- Responsive CR7 ------------------------*
+/*------------------------- Responsive CR7 ------------------------*/
 
 @media only screen and (max-width: 320px) {
     .container {
@@ -296,7 +296,7 @@ p {
     }
 } 
 
-/*-------------------------------Highlights-------------------------------*
+/*-------------------------------Highlights-------------------------------*/
 
 .section-two {
     background: black;
@@ -369,7 +369,7 @@ input[name="video"]{
     margin-left: -60%;
 }
 
-/*------------------------ Responsive Highlights --------------------*
+/*------------------------ Responsive Highlights --------------------*/
 
 @media only screen and (max-width: 320px) {
     .middle {
@@ -406,7 +406,7 @@ input[name="video"]{
     }
 }
 
-/*------------------------------Footer-------------------------*
+/*------------------------------Footer-------------------------*/
 
 .section-three {
     background: black;
@@ -514,7 +514,7 @@ h3 {
     outline: none;
 }
 
-/*--------------------- Responsive Footer -----------------------*
+/*--------------------- Responsive Footer -----------------------*/
 
 @media only screen and (max-width: 320px) {
     h2 {
