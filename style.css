@@ -10,48 +10,69 @@
 body {
     margin: 0;
     font-size: 18px;
-    background-color: black;
+    background-color: #CAD3C8;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
 /*------------------------- Navigation -------------------------*/
 
 nav {
     position: fixed;
-    top: 0;
-    background: black;  
-    height: 80px;
+    top: 0; 
+    height: fit-content;
+    padding: 12px 0;
     width: 100%;
     overflow: hidden;
-    background-color: rgba(0, 0, 0, 1);
-    box-shadow: 4px 10px 10px #ff6f00;
+    background-color: rgb(202, 211, 200, 1);
+    box-shadow: 4px 10px 10px #F8EFBA;
     z-index: 1;
 }
 
 .logo {
-    margin-top: 30px;
+    margin-top: 0px;
     float: left;
     margin-left: 5%;
-    font-weight: bold;
-    font-size: 22px;
-    color: white;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+    margin-bottom: 10px;
 }
+
+.logo img {
+    width: 100px;
+}
+
+.logo-txt {
+    float: left;
+    padding-top: 25px;
+    line-height: 40px;
+    padding-left: 200px;
+}
+
+.logo-txt h1 {
+    padding:0px;
+    color: black;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+} 
+
+.logo-txt h2 {
+    color: black;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding-left: 50px;
+} 
 
 nav ul {
     float: right;
-    margin-right: 20px;
+    margin-right: 2px;
+    margin-top: 0px;
 }
 
 nav ul li {
     display: inline-block;
-    line-height: 90px;
-    margin-right: 20px;
+    margin-right: 15px;
 }
 
 nav ul li a {
-    color: white;
+    color: black;
     border-radius: 2px;
     padding: 7px 15px;
     font-size: 18px;
@@ -61,13 +82,13 @@ nav ul li a {
 }
 
 nav ul li a.active, nav ul li a:hover {
-    background: #ff6f00;
+    background: #F8EFBA;
     transition: 0.5s;
 }
 
 .checkbtn-open {
     font-size: 30px;
-    color: #ff6f00;
+    color: #F8EFBA;
     float: right;
     line-height: 90px;
     margin-right: 40px;
@@ -77,7 +98,7 @@ nav ul li a.active, nav ul li a:hover {
 
 .checkbtn-close {
     font-size: 30px;
-    color: #ff6f00;
+    color: #F8EFBA;
     float: right;
     line-height: 90px;
     margin-right: 40px;
@@ -90,7 +111,7 @@ nav ul li a.active, nav ul li a:hover {
 }
 
 label #bars-btn, label #close-btn {
-    background: white;
+    background: black;
     border-radius: 3px;
 }
 
@@ -106,7 +127,7 @@ label #close-btn {
     display: none;
 }
 
-/*-------------------------- Responsive Navigation ---------------------*/
+/*-------------------------- Responsive Navigation ---------------------*
 
 @media only screen and (max-width: 600px) {
     nav ul {
@@ -189,7 +210,8 @@ label #close-btn {
     }
 } 
 
-/*-------------------------------CR7-------------------------------*/
+
+/*-------------------------------CR7-------------------------------*
 
 .section-one {
     background: black;
@@ -228,7 +250,7 @@ p {
     margin: 20px auto;
 }
 
-/*------------------------- Responsive CR7 ------------------------*/
+/*------------------------- Responsive CR7 ------------------------*
 
 @media only screen and (max-width: 320px) {
     .container {
@@ -274,7 +296,7 @@ p {
     }
 } 
 
-/*-------------------------------Highlights-------------------------------*/
+/*-------------------------------Highlights-------------------------------*
 
 .section-two {
     background: black;
@@ -347,7 +369,7 @@ input[name="video"]{
     margin-left: -60%;
 }
 
-/*------------------------ Responsive Highlights --------------------*/
+/*------------------------ Responsive Highlights --------------------*
 
 @media only screen and (max-width: 320px) {
     .middle {
@@ -384,7 +406,7 @@ input[name="video"]{
     }
 }
 
-/*------------------------------Footer-------------------------*/
+/*------------------------------Footer-------------------------*
 
 .section-three {
     background: black;
@@ -492,7 +514,7 @@ h3 {
     outline: none;
 }
 
-/*--------------------- Responsive Footer -----------------------*/
+/*--------------------- Responsive Footer -----------------------*
 
 @media only screen and (max-width: 320px) {
     h2 {
