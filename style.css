@@ -10,69 +10,48 @@
 body {
     margin: 0;
     font-size: 18px;
-    background-color: #CAD3C8;
+    background-color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 /*------------------------- Navigation -------------------------*/
 
 nav {
     position: fixed;
-    top: 0; 
-    height: fit-content;
+    top: 0;
+    background: black;  
+    height: 80px;
     padding: 12px 0;
     width: 100%;
     overflow: hidden;
-    background-color: rgb(202, 211, 200, 1);
-    box-shadow: 4px 10px 10px #F8EFBA;
+    background-color: rgba(0, 0, 0, 1);
+    box-shadow: 4px 10px 10px #ff6f00;
     z-index: 1;
 }
 
 .logo {
-    margin-top: 0px;
+    margin-top: 30px;
     float: left;
     margin-left: 5%;
-    margin-bottom: 10px;
-}
-
-.logo img {
-    width: 100px;
-}
-
-.logo-txt {
-    float: left;
-    padding-top: 25px;
-    line-height: 40px;
-    padding-left: 200px;
-}
-
-.logo-txt h1 {
-    padding:0px;
-    color: black;
-    letter-spacing: 2px;
-    text-transform: uppercase;
     font-weight: bold;
-} 
-
-.logo-txt h2 {
-    color: black;
-    letter-spacing: 2px;
-    font-size: 20px;
-    padding-left: 50px;
-} 
+    font-size: 22px;
+    color: white;
+}
 
 nav ul {
     float: right;
-    margin-right: 2px;
+    margin-right: 20px;
     margin-top: 0px;
 }
 
 nav ul li {
     display: inline-block;
+    line-height: 90px;
+    margin-right: 20px;
     margin-right: 15px;
 }
 
 nav ul li a {
-    color: black;
+    color: white;
     border-radius: 2px;
     padding: 7px 15px;
     font-size: 18px;
@@ -82,7 +61,7 @@ nav ul li a {
 }
 
 nav ul li a.active, nav ul li a:hover {
-    background: #F8EFBA;
+    background: #ff6f00;
     transition: 0.5s;
 }
 
@@ -98,7 +77,7 @@ nav ul li a.active, nav ul li a:hover {
 
 .checkbtn-close {
     font-size: 30px;
-    color: #F8EFBA;
+    color: #ff6f00;
     float: right;
     line-height: 90px;
     margin-right: 40px;
@@ -111,7 +90,7 @@ nav ul li a.active, nav ul li a:hover {
 }
 
 label #bars-btn, label #close-btn {
-    background: black;
+    background: white;
     border-radius: 3px;
 }
 
